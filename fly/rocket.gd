@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-const ENGINE_FORCE = Vector2(0, -150000)
+const ENGINE_FORCE = Vector2(0, -100000)
 const BOOST_FORCE = Vector2(0, -50000)
 const FIN_FORCE = 500000
 
@@ -16,7 +16,6 @@ func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:
 		state.apply_torque(FIN_FORCE)
 	if Input.is_action_pressed("cut_engine"):
 		plume.emitting = false
-		plume.clear()
 	else:
 		state.apply_central_force(ENGINE_FORCE.rotated(rotation))
 		plume.emitting = true
