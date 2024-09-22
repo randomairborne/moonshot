@@ -72,8 +72,9 @@ texture_repeat = 2
 position = Vector2(0, 64)
 scale = Vector2(4, 4)
 texture = ExtResource("4_2o6kq")
+offset = Vector2(0, 256)
 region_enabled = true
-region_rect = Rect2(32, 32, 1.67772e+07, 32)
+region_rect = Rect2(32, 32, 1.67772e+07, 512)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 scale = Vector2(1000, 1)
