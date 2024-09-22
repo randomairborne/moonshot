@@ -25,7 +25,7 @@ func _process(delta: float) -> void:
 			spawnedPlaces[spawn_position] = true
 			if randi_range(0, SPAWN_CHANCE) == 0:
 				var new_plane = planeScene.instantiate()
-				new_plane.name = "Plane %i %i" % [spawn_position.x, spawn_position.y]
+				new_plane.name = "Plane %s" % spawn_position
 				new_plane.position = spawn_position
 				get_tree().root.add_child(new_plane)
 				
