@@ -10,8 +10,6 @@ func _ready() -> void:
 	plume = get_node("./MainEnginePlume")
 
 func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:
-	if Input.is_key_pressed(KEY_1):
-		print(position)
 	if Input.is_action_pressed("turn_left"):
 		state.apply_torque(-FIN_FORCE)
 	if Input.is_action_pressed("turn_right"):
