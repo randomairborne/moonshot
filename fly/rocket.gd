@@ -6,6 +6,10 @@ const FIN_FORCE = 500000
 
 @onready var plume = $MainEnginePlume
 @onready var fuel = $Fuel
+@onready var fuelDisplay = $"../Camera2D/FuelDisplay"
+
+func _process(delta: float) -> void:
+	fuelDisplay.text = "FUEL: %.2fs" % fuel.get_time_left()
 
 func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:				
 	if Input.is_action_pressed("turn_left"):

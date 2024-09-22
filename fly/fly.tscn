@@ -60,13 +60,22 @@ fixed_fps = 120
 
 [node name="Fuel" type="Timer" parent="Rocket"]
 process_callback = 0
-wait_time = 10.0
+wait_time = 300.0
 one_shot = true
 autostart = true
 
 [node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("target_node")]
 script = ExtResource("3_5k7ro")
 target_node = NodePath("../Rocket")
+
+[node name="FuelDisplay" type="RichTextLabel" parent="Camera2D"]
+offset_left = -572.0
+offset_top = -320.0
+offset_right = -398.0
+offset_bottom = -253.0
+theme_override_font_sizes/normal_font_size = 20
+fit_content = true
+scroll_active = false
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
