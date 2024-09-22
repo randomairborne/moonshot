@@ -3,12 +3,7 @@ extends Node2D
 const SPAWN_OFFSETS = 256
 const SPAWN_CHANCE = 100
 var spawnedPlaces = {}
-var planeScene = null
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	planeScene = load("res://fly/Plane.tscn")
-	pass # Replace with function body.
-
+@onready var planeScene = load("res://fly/Plane.tscn")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
