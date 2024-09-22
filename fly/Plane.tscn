@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://dfm63smtc2e3x"]
+
+[ext_resource type="Texture2D" uid="uid://c6qs5nloecico" path="res://fly/plane1.svg" id="1_ejtbj"]
+[ext_resource type="Script" path="res://fly/plane.gd" id="1_uhma0"]
+[ext_resource type="Texture2D" uid="uid://fn4qlbrd16w7" path="res://fly/plane2.svg" id="2_rh0d4"]
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_op28q"]
+frames = 2
+frame_0/texture = ExtResource("1_ejtbj")
+frame_0/duration = 0.25
+frame_1/texture = ExtResource("2_rh0d4")
+frame_1/duration = 0.25
+
+[node name="Plane" type="RigidBody2D"]
+mass = 10.0
+script = ExtResource("1_uhma0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+texture = SubResource("AnimatedTexture_op28q")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-4, -36, -72, -36, -72, -28, -92, -28, -92, 16, -72, 16, -72, 24, -56, 24, -38, 47, -20, 24, -4, 24, -4, 12, 34, 0, 56, 23, 56, -5, 74, -14, 59, -59, 32, -28, -4, -28)
