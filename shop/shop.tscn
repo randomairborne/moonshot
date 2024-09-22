@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4ci64eu65oah"]
+
+[ext_resource type="Script" path="res://shop/gofly.gd" id="1_rk3j4"]
+
+[node name="Shop" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 824.0
+offset_top = 532.0
+offset_right = 1140.0
+offset_bottom = 633.0
+theme_override_font_sizes/font_size = 64
+text = "Go Fly!"
+script = ExtResource("1_rk3j4")

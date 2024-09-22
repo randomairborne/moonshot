@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="rocket.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="0.9294672"
+     inkscape:cx="216.25292"
+     inkscape:cy="662.20734"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="105,55.000005"
+       end_point="105,154.72086"
+       center_point="105,104.86043"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#999999;stroke-width:0.293559;image-rendering:auto"
+       d="m 105,55 c 34.01913,18.441759 36.18759,112.61728 17.58658,99.72085 M 105,55 C 70.98087,73.441759 68.81241,167.61728 87.41342,154.72085"
+       id="path3"
+       sodipodi:nodetypes="cc"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="m 105,55 c 34.01913,18.441759 36.18759,112.61728 17.58658,99.72085"
+       inkscape:label="path3"
+       transform="matrix(2.565805,0,0,2.565805,-164.40952,-115.13701)" />
+    <path
+       style="fill:#ff0000;stroke-width:0.264583"
+       d="M 150.12374,281.84652 H 59.876269 L 105,25.982265 150.12374,281.84652"
+       id="path4" />
+    <circle
+       style="fill:#666666;stroke-width:0.420099"
+       id="path2"
+       cx="105"
+       cy="135.02898"
+       r="44.901588" />
+    <circle
+       style="fill:#00ffff;stroke-width:0.436033"
+       id="path1"
+       cx="105"
+       cy="135.02898"
+       inkscape:label="path1"
+       r="38.487076" />
+  </g>
+</svg>
