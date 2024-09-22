@@ -12,4 +12,4 @@ func _process(delta: float) -> void:
 	
 func _pressed() -> void:
 	print("loading game")
-	get_tree().change_scene_to_file("res://shop/shop.tscn")
+	get_tree().change_scene_to_file("res://fly/fly.tscn")
