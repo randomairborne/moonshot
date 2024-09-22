@@ -4,10 +4,7 @@ const ENGINE_FORCE = Vector2(0, -100000)
 const BOOST_FORCE = Vector2(0, -50000)
 const FIN_FORCE = 500000
 
-var plume = null
-
-func _ready() -> void:
-	plume = get_node("./MainEnginePlume")
+@onready var plume = $MainEnginePlume
 
 func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:
 	if Input.is_action_pressed("turn_left"):
