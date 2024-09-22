@@ -14,7 +14,7 @@ config/name="moonshot"
 config/description="Upgrade a rocket and fly to the moon"
 run/main_scene="res://menu/menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://fly/rocket.svg"
 
 [input]
 
